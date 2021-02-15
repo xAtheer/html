@@ -22,18 +22,21 @@
    <br> والإنسان هو المقصود في هذه العملية، بالرغم من قدرة الحيوانات على التعلّم <br>
       وتتحقق هذه العملية التعليمية عند انعكاسها على السلوك والقيم والأفكار وغيرها <br> </p>
 
-      <form name="contact" netlify>
-        <p>
-          <label>Name <input type="text" name="name" /></label>
-        </p>
-        <p>
-          <label>Comment</label>
-          <textarea name="comment" id="" cols="30" rows="10"></textarea>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
-      </form>
+      
+      <div>
+        <form name="contact" netlify>
+            <p>
+              <label>Name <input type="text" name="name" /></label>
+            </p>
+            <p>
+              <label>Comment</label>
+              <textarea name="comment" id="" cols="30" rows="10"></textarea>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
+      </div>
 
 
 
@@ -45,6 +48,41 @@ h1 { font-weoght: bold;
 background-color: cadetblue;
    
 }
+
+div{
+    max-width: 400px;;
+}
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 14px;
+  box-sizing: border-box;
+}
+
+button{
+  width: 100%;
+  background-color: #58a5b3;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #121312;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f7f2f2;
+  padding: 20px;
+}
+
 </style> 
 <style type="text/css">
 body { background-color:  rgb(233, 233, 245);
